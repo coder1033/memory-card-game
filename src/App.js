@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { cardsId, cardsUrl } from "./cards-data/cards-data.js";
 import reshuffle from "./reshuffle/reshuffle.js";
 import AllCards from "./components/all-cards.js";
-import Header from "./components/header.js";
+import HeaderContent from "./components/header-content.js";
 import GameOver from "./components/game-over.js"
 
 const App = () => {
@@ -48,7 +48,7 @@ const App = () => {
   return (
     <div>
       {game_over && <GameOver onRestart={onRestart}/>}
-      <Header score={score} high_score={high_score}/>
+      <HeaderContent score={score} high_score={high_score}/>
       <AllCards onClickCard={onClickCard} cards={cards} cards_url={cards_url} />
     </div>
   );
