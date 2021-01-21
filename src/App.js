@@ -8,7 +8,7 @@ import GameOver from "./components/game-over.js"
 
 const App = () => {
   const [cards_url] = useState(cardsUrl());
-  const [cards, setCards] = useState(cardsId());
+  const [cards, setCards] = useState(reshuffle(cardsId()));
   const [score, setScore] = useState(0);
   const [high_score, setHighScore] = useState(0);
   const [selected, setSelected] = useState({});
