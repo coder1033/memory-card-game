@@ -2,7 +2,7 @@
 
 This is a memory-card react application mentioned in [The Odin Project](https://www.theodinproject.com/courses/javascript/lessons/memory-card).
 
-[React Bootstrap](https://react-bootstrap.github.io/) is used for UI
+[React Bootstrap](https://react-bootstrap.github.io/) is used for UI,
 [React Icons](https://react-icons.github.io/react-icons/) are used for icons.
 
 Images for cards are from [here](https://www.ea.com/games/plants-vs-zombies/plants-vs-zombies-2/plants).
