@@ -5,6 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 
+if(!localStorage.high_score){
+  localStorage.setItem("high_score", 0);
+}
 ReactDOM.render(
   <React.StrictMode>
     <App />

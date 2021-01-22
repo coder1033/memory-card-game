@@ -10,13 +10,16 @@ const App = () => {
   const [cards_url] = useState(cardsUrl());
   const [cards, setCards] = useState(reshuffle(cardsId()));
   const [score, setScore] = useState(0);
-  const [high_score, setHighScore] = useState(0);
+  const [high_score, setHighScore] = useState(parseInt(localStorage.high_score));
   const [selected, setSelected] = useState({});
   const [game_over, setGameOver] = useState(false);
 
   useEffect(
     () => {
-      if (high_score < score) setHighScore(high_score + 1);
+      if (high_score < score){
+        localStorage.setItem("high_score", high_score + 1);
+        setHighScore(high_score + 1)
+      };
     },
     [score, high_score]
   );
