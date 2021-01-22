@@ -1,0 +1,36 @@
+.row-spacing{
+    margin-bottom:0.5rem;
+}
+@media(max-width:992px){
+    .row-spacing{
+        margin-bottom:1rem;
+    }
+    .row-spacing:first-child{
+        margin-top:2rem;
+    }
+    .row-spacing:last-child{
+        margin-bottom:0;
+    }
+}
+@media(max-width:767px){
+    .row-spacing{
+        margin-bottom:2.5rem;
+    }
+    .row-spacing:first-child{
+        margin-top:3rem;
+    }
+    .row-spacing:last-child{
+        margin-bottom:0;
+    }
+}
+@media(max-width:500px){
+    .row-spacing{
+        margin-bottom:3rem;
+    }
+    .row-spacing:first-child{
+        margin-top:4rem;
+    }
+    .row-spacing:last-child{
+        margin-bottom:0;
+    }
+}
