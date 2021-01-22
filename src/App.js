@@ -23,7 +23,6 @@ const App = () => {
 
   const onClickCard = (card) => {
     if (selected[card]) {
-      setScore(0);
       setSelected((prevSelected) => {
         return {};
       });
@@ -42,12 +41,13 @@ const App = () => {
   };
 
   const onRestart = () => {
+    setScore(0);
     setGameOver(false);
   };
 
   return (
     <div>
-      {game_over && <GameOver onRestart={onRestart}/>}
+      <GameOver onRestart={onRestart} your_score={score} high_score={high_score} game_over={game_over}/>
       <HeaderContent score={score} high_score={high_score}/>
       <AllCards onClickCard={onClickCard} cards={cards} cards_url={cards_url} />
     </div>
