@@ -5,6 +5,7 @@ import reshuffle from "./reshuffle/reshuffle.js";
 import AllCards from "./components/all-cards.js";
 import HeaderContent from "./components/header-content.js";
 import GameOver from "./components/game-over.js";
+import Footer from "./components/footer.js";
 
 const App = () => {
   const [cards_url] = useState(cardsUrl());
@@ -57,6 +58,7 @@ const App = () => {
       />
       <HeaderContent score={score} high_score={high_score} />
       <AllCards onClickCard={onClickCard} cards={cards} cards_url={cards_url} />
+      <Footer/>
     </div>
   );
 };
