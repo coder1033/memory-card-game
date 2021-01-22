@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/memory-card-game/static/css/main.cca713f4.chunk.css",
+    "main.js": "/memory-card-game/static/js/main.e09593e9.chunk.js",
+    "main.js.map": "/memory-card-game/static/js/main.e09593e9.chunk.js.map",
+    "runtime-main.js": "/memory-card-game/static/js/runtime-main.fbd5c589.js",
+    "runtime-main.js.map": "/memory-card-game/static/js/runtime-main.fbd5c589.js.map",
+    "static/css/2.658248ec.chunk.css": "/memory-card-game/static/css/2.658248ec.chunk.css",
+    "static/js/2.05903c35.chunk.js": "/memory-card-game/static/js/2.05903c35.chunk.js",
+    "static/js/2.05903c35.chunk.js.map": "/memory-card-game/static/js/2.05903c35.chunk.js.map",
+    "static/js/3.581bc02c.chunk.js": "/memory-card-game/static/js/3.581bc02c.chunk.js",
+    "static/js/3.581bc02c.chunk.js.map": "/memory-card-game/static/js/3.581bc02c.chunk.js.map",
+    "index.html": "/memory-card-game/index.html",
+    "static/css/2.658248ec.chunk.css.map": "/memory-card-game/static/css/2.658248ec.chunk.css.map",
+    "static/css/main.cca713f4.chunk.css.map": "/memory-card-game/static/css/main.cca713f4.chunk.css.map",
+    "static/js/2.05903c35.chunk.js.LICENSE.txt": "/memory-card-game/static/js/2.05903c35.chunk.js.LICENSE.txt",
+    "static/media/cherrybomb.5d2b591e.png": "/memory-card-game/static/media/cherrybomb.5d2b591e.png",
+    "static/media/chomper.6e5161b3.png": "/memory-card-game/static/media/chomper.6e5161b3.png",
+    "static/media/fumeshroom.f9c4c91a.png": "/memory-card-game/static/media/fumeshroom.f9c4c91a.png",
+    "static/media/hypnoshroom.b9550fb2.png": "/memory-card-game/static/media/hypnoshroom.b9550fb2.png",
+    "static/media/kernelpult.267d27d0.png": "/memory-card-game/static/media/kernelpult.267d27d0.png",
+    "static/media/magnetshroom.cf29529f.png": "/memory-card-game/static/media/magnetshroom.cf29529f.png",
+    "static/media/melonpult.9656af24.png": "/memory-card-game/static/media/melonpult.9656af24.png",
+    "static/media/peapod.bcfbaab2.png": "/memory-card-game/static/media/peapod.bcfbaab2.png",
+    "static/media/peashooter.1febbbc9.png": "/memory-card-game/static/media/peashooter.1febbbc9.png",
+    "static/media/snowpea.f78380ca.png": "/memory-card-game/static/media/snowpea.f78380ca.png",
+    "static/media/sporeshroom.635c6107.png": "/memory-card-game/static/media/sporeshroom.635c6107.png",
+    "static/media/sunflower.927c104a.png": "/memory-card-game/static/media/sunflower.927c104a.png",
+    "static/media/sunshroom.8e601b1d.png": "/memory-card-game/static/media/sunshroom.8e601b1d.png",
+    "static/media/tallnut.7ed143ca.png": "/memory-card-game/static/media/tallnut.7ed143ca.png",
+    "static/media/torchwood.36269107.png": "/memory-card-game/static/media/torchwood.36269107.png",
+    "static/media/wintermelon.961c1e63.png": "/memory-card-game/static/media/wintermelon.961c1e63.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fbd5c589.js",
+    "static/css/2.658248ec.chunk.css",
+    "static/js/2.05903c35.chunk.js",
+    "static/css/main.cca713f4.chunk.css",
+    "static/js/main.e09593e9.chunk.js"
+  ]
+}
