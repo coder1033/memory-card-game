@@ -58,7 +58,7 @@ const App = () => {
       />
       <HeaderContent score={score} high_score={high_score} />
       <AllCards onClickCard={onClickCard} cards={cards} cards_url={cards_url} />
-      <Footer/>
+      <Footer />
     </div>
   );
 };
