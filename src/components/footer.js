@@ -27,7 +27,7 @@ const Footer = () => {
         </a>
       </Navbar.Text>
       <Navbar.Text className="ml-2">
-        <OverlayTrigger trigger="click" placement="top" overlay={about_game}>
+        <OverlayTrigger placement="top" delay={{ show: 250, hide: 1000 }} overlay={about_game}>
           <AiOutlineQuestionCircle color="black" cursor="pointer" />
         </OverlayTrigger>
       </Navbar.Text>
