@@ -15,7 +15,6 @@ import tallnut from "../images/tallnut.png";
 import torchwood from "../images/torchwood.png";
 import wintermelon from "../images/wintermelon.png";
 
-
 const cardsId = () => Array.from(Array(16).keys());
 
 const cardsUrl = () => {
