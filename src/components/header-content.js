@@ -9,7 +9,7 @@ const HeaderContent = (props) => {
         </Navbar.Brand>
       </Navbar>
       <Navbar
-        className="justify-content-center p-0 mb-3 sticky-top"
+        className="justify-content-center p-0 mb-1"
         variant="secondary"
         bg="light"
       >
