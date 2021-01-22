@@ -1,4 +1,4 @@
-import "./App.css";
+import "./app.css";
 import { useEffect, useState } from "react";
 import { cardsId, cardsUrl } from "./cards-data/cards-data.js";
 import reshuffle from "./reshuffle/reshuffle.js";
