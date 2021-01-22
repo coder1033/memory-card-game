@@ -1,3 +1,19 @@
+## About the project
+
+This is a memory-card react application mentioned in [The Odin Project](https://www.theodinproject.com/courses/javascript/lessons/memory-card).
+
+[React Bootstrap](https://react-bootstrap.github.io/) is used for UI
+[React Icons](https://react-icons.github.io/react-icons/) are used for icons.
+
+Images for cards are from [here](https://www.ea.com/games/plants-vs-zombies/plants-vs-zombies-2/plants).
+
+[This](https://bost.ocks.org/mike/shuffle/) algorithm is used for shuffling of cards.
+
+Windows Local Storage is used for storing high score.
+
+
+This project is created using creat-react-app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
