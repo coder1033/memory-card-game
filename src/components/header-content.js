@@ -1,13 +1,21 @@
-import Header from 'react-bootstrap/Header';
+import {Navbar} from 'react-bootstrap';
 
 const HeaderContent = (props) => {
 
     return (
-        <Header>
-            <h1>Memory Game</h1>
-            <h3>Your Score - {props.score}</h3>
-            <h3>High Score - {props.high_score}</h3>
-        </Header>
+        <>
+            <Navbar className="justify-content-center" variant="dark" bg="dark">
+                <Navbar.Brand href="#" className="pt-0"><h1 className="m-0 h2 font-weight-normal">Memory Game</h1></Navbar.Brand>
+            </Navbar>
+            <Navbar className="justify-content-center p-0 mb-3 sticky-top" variant="secondary" bg="light">            
+                <Navbar.Text className="mr-2">
+                Your Score - <span className="text-primary">{props.score}</span>
+                </Navbar.Text>
+                <Navbar.Text className="ml-2">
+                High Score - <span className="text-danger">{props.high_score}</span>
+                </Navbar.Text>
+            </Navbar>
+        </>
     )
 };
 
